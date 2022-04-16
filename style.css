@@ -54,7 +54,7 @@ a:hover
 {
     font-size: 50px;
     text-align: left;
-    font-family: Gadugi;
+    font-family: Gadugi, Sans Serif Collection;
     font-style: normal;
     font-weight: bold;
     color: rgba(255,255,255,1);
@@ -67,7 +67,7 @@ a:hover
 {
     font-size: 20px;
     text-align: left;
-    font-family: Gadugi;
+    font-family: Gadugi, Sans Serif Collection;
     font-style: normal;
     color: rgba(255,255,255,1);
 }

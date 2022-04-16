@@ -1,0 +1,314 @@
+@import url(//db.onlinewebfonts.com/c/3f3f1a887702b525cda01f7cd776b241?family=Gadugi);
+*
+{
+    margin: 0;
+    padding: 0;
+}
+section, footer
+{
+    overflow: hidden;
+}
+section.home
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background2.png);
+    background-size: cover;
+}
+.navbar-style
+{
+    top: 25px;
+}
+.logo
+{
+    height:48px;
+    padding: 2px 20px;
+}
+
+.icon-bar
+{
+    background-color: #ffffff;
+    max-width: 100px;
+}
+
+li a
+{
+    color: #ffffff;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gadugi;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:hover
+{
+
+    background-color: darkorange;
+    border: none;
+    box-shadow: 5px 5px 5px #999;
+    transition: 0.3s;
+}
+.big-text
+{
+    font-size: 50px;
+    text-align: left;
+    font-family: Gadugi;
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+}
+.home.big-text
+{
+    margin-top: 20px;
+}
+.small-text
+{
+    font-size: 20px;
+    text-align: left;
+    font-family: Gadugi;
+    font-style: normal;
+    color: rgba(255,255,255,1);
+}
+
+a.btn-second
+{
+    padding:3% 5% 3% 5%;
+    border-radius: 35px;
+    background-color: #ffffff;
+    border: 5px solid  rgba(4,155,179,1);
+    color: #333;
+    font-family: Gadugi;
+    color: rgba(4,155,179,1);
+    font-size: large;
+    font-weight: bold;
+}
+a.btn:hover
+{
+    background: darkorange;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 5px #999;
+    transition: 0.3s;
+}
+.banner-info, .banner-image
+{
+    width: 50%;
+    margin: 45px 0;
+}
+
+section.about, section.our-services
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(14,38,74,1);
+}
+
+.broken-line img
+{
+    width: 110%;
+    margin-left: -2%;
+    margin-top: -0.5%;
+    height: 10vh;
+}
+section.about img.img-responsive
+{
+    width: 70%;
+    margin-top: 7%;
+}
+.about .big-text
+{
+    margin-top: 70px;
+}
+.our-services .big-text, .contact-us .big-text
+{
+    text-align: center;
+}
+
+.our-services .row
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+.our-services .row img
+{
+    width: 20%;
+    margin-right: 15%;
+}
+section.contact-us
+{
+    width: 100%;
+    height: 110vh;
+    background-color: rgba(14,38,74,1);
+
+}
+
+.contact-us .left
+{
+    background-color: #0093AB;
+    width: 250px;
+    height: 55vh;
+    margin-top: 6%;
+    margin-left: 15%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    padding-left: 2%;
+    position: absolute;
+}
+.contact-us .left h1
+{
+    font-family: Sans Serif Collection;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 41px;
+    color: rgba(255,255,255,1);
+}
+.contact-us .left p
+{
+    font-family: Sans Serif Collection;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(255,255,255,1);
+}
+i
+{
+    color: rgb(255, 255, 255); 
+    margin-right: 1%;
+}
+.contact-us .right
+{
+    background-color: #ffffff;
+    width: 650px;
+    height: 73vh;
+    margin-top: 3%;
+    margin-left: 33%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.contact-us .right h1
+{
+    font-family: Sans Serif Collection;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #0093AB;
+}
+.contact-us .right-words
+{
+    display: flex;
+    flex-direction: row;
+}
+.contact-us .right-words .right-right
+{
+    margin-left: 10%;
+}
+.contact-us .right label
+{
+    font-family: Sans Serif Collection;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(111,103,103,1);
+}
+input
+{
+    background-color: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-color: rgba(111,103,103,1);
+    border-width: 2px;
+    width: 200px;
+    text-align: center;
+    font-size: 10px;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active 
+{
+    transition: background-color 5000s ease-in-out 0s;
+}
+.label-and-input
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+}
+#message input
+{
+    width: 300px;
+    margin-top: 5%;
+}
+.contact-us button
+{
+    width: 100px;
+    height: 7vh;
+    margin-top: 10%;
+    border: none;
+    background-color: #0093AB;
+    font-family: Sans Serif Collection;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    text-align: center;
+}
+footer
+{
+    width: 100%;
+    height: 50vh;
+    background-color: #0093AB;
+    display: flex;
+    flex-direction: row;
+}
+.footer-copyright p
+{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #0E264A;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.footer-links
+{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 30vh;
+    justify-content: space-between;
+    margin-left: 60%;
+    margin-top: -5%;
+}
+.footer-links li b
+{
+    font-family: Dubai;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0E264A;
+}
+.footer-links li a
+{
+    font-family: Dubai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.footer-links ul li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
